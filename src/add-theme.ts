@@ -1,3 +1,16 @@
+/*
+ * Changes this
+ *
+ *   styled('div')
+ *
+ * or this
+ *
+ *   styled('div', {})
+ *
+ * to this
+ *
+ *   styled('div', ({ $theme }) => ({}))
+ */
 import { Fixer } from '@slonoed/jsref'
 
 const fixer: Fixer = {
